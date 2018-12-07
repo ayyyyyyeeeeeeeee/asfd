@@ -1,0 +1,7 @@
+var num = promptNum("How many numbers do you want to check?");
+check3();
+function  check3 () {
+  if (Number.isInteger(num)) {
+    console.log("hi");
+  }
+}
